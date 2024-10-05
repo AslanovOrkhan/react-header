@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Content from "../components/Content";
 
 const Menu = () => {
   return (
-    <div>Menu Page</div>
-  )
-}
+    <div>
+      <Content title="Menu Page" />
+    </div>
+  );
+};
 
-export default Menu
+export default Menu;

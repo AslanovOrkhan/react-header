@@ -16,24 +16,12 @@ header {
       align-items: center;
       gap: 35px;
       li {
-        position: relative;
-        ul {
-          position: absolute;
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
-          border: 1px solid red;
-          background-color: #000;
-          li {
-            width: 100%;
-            background-color: #0ef;
-          }
-        }
         a {
           color: #fff;
           font-size: 20px;
           font-weight: 500;
           margin-left: 10px;
+          padding-bottom: 5px;
         }
       }
     }
@@ -48,6 +36,7 @@ header {
 }
 .active {
   color: #0ef;
+  border-bottom: 1px solid #0ef;
 }
 
 @media (max-width: 991px) {
@@ -62,6 +51,7 @@ header {
       padding: 30px 0;
       width: 100%;
       transition: left 0.3s ease;
+      z-index: 100;
       ul {
         flex-direction: column;
       }

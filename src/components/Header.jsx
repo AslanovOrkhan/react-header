@@ -15,9 +15,9 @@ const Header = () => {
   };
   return (
     <header>
-      <NavLink to="/" className="logo">
+      <h1 className="logo">
         A.Orkhan
-      </NavLink>
+      </h1>
       <nav className={`navbar ${isOpen && "open"}`}>
         <ul>
           <li>

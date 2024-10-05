@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Content from "../components/Content";
 
 const Service = () => {
   return (
-    <div>Service Page</div>
-  )
-}
+    <div>
+      <Content title="Service Page" />
+    </div>
+  );
+};
 
-export default Service
+export default Service;

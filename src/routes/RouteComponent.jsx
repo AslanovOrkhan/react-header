@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
-import About from "../pages/About";
-import Contact from "../pages/Contact";
-import Blog from "../pages/Blog";
-import Service from "../pages/Service";
-import Menu from "../pages/Menu";
+import Home from "../pages/Home.jsx";
+import About from "../pages/About.jsx";
+import Contact from "../pages/Contact.jsx";
+import Blog from "../pages/Blog.jsx";
+import Service from "../pages/Service.jsx";
+import Menu from "../pages/Menu.jsx";
 import Shop from "../pages/Shop.jsx";
 
 const RouteComponent = () => {
